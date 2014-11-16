@@ -2,7 +2,7 @@
 #import matplotlib.image as mpimg
 import numpy as np
 import pickle
-#import os
+import os
 
 from eyes import leftfacegraph
 from eyes import rightfacegraph
