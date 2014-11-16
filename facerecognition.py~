@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+#import matplotlib.pyplot as plt
+#import matplotlib.image as mpimg
 import numpy as np
 import pickle
 import os
@@ -106,8 +106,8 @@ def assignIdToImage( sd_pixels, jtp ): #add jawline statistic
 	mp = min(pixel_scores.values() )
 	for key in pixel_scores:
 		if pixel_scores[key] == mp:
-			print "Pixel Assessment: ", key 
-			#pass
+			#print "Pixel Assessment: ", key 
+			pass
 			
 
 	jaw_total = sum(jtp.values() )
@@ -117,8 +117,8 @@ def assignIdToImage( sd_pixels, jtp ): #add jawline statistic
 	mj = min(jaw_scores.values() )
 	for key in jaw_scores:
 		if jaw_scores[key] == mj:
-			print "Jaw Assessment: ", key 
-			#pass
+			#print "Jaw Assessment: ", key 
+			pass
 			
 
 	ready_to_rumble = {i: (jaw_scores[i] + pixel_scores[i])/2 for i in jtp}

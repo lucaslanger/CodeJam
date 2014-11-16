@@ -1,8 +1,8 @@
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+#import matplotlib.pyplot as plt
+#import matplotlib.image as mpimg
 import numpy as np
 import pickle
-import os
+#import os
 import sys
 
 from eyes import *
